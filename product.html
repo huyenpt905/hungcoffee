@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sản phẩm Cà phê</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+</head>
+<body>
+<header class="header-sub">
+    <!--nav-->
+    <nav class="navbar navbar-expand-md py-0">
+        <div class="container">
+            <!--logo-->
+            <a href="#" class="navbar-brand">
+                <img src="img/logo.png" alt="">
+            </a>
+            <!--toggler btn-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+            </button>
+            <!--list links-->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="homePage.html">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="product.html">Sản phẩm</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="health.html">Sống vui khỏe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">Về chúng tôi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+</header>
+
+<div class="page__title">
+    <h1 class="container">CÁC SẢN PHẨM</h1>
+</div>
+
+<div class="page__nav container">Trang chủ | <span class="nav__current">Sản phẩm</span></div>
+
+<section class="products global">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-3">
+                <h5 class="mb-4 products__title">LOẠI CÀ PHÊ</h5>
+                <div class="d-flex m-3 flex-sm-column products__left">
+                    <div class="type__box text-center">
+                        <img class="mb-3" src="img/ic_cf%20chuyen%20dung.png" alt="">
+                        <a href="#" class="nav-link">Cà phê chuyên dùng</a>
+                    </div>
+                    <div class="type__box text-center">
+                        <img class="mb-3" src="img/ic_cf%20hat.png" alt="">
+                        <a href="#" class="nav-link">Cà phê hạt</a>
+                    </div>
+                    <div class="type__box text-center">
+                        <img class="mb-3" src="img/ic_cf%20hoa%20tan.png" alt="">
+                        <a href="#" class="nav-link">Cà phê hòa tan</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-9 products__right">
+                <div class="container">
+                    <div class="d-flex justify-content-between right__top">
+                        <h5 class="products__title">SẢN PHẨM</h5>
+                        <label class="right__select products__title d-block d-md-none d-lg-block">Phân loại theo
+                            <select name="cars" class="custom-select-sm">
+                                <option selected>Giá từ cao-thấp</option>
+                                <option value="audi">Giá từ thấp-cao</option>
+                                <option value="audi">Đánh giá</option>
+                                <option value="fiat">Hãng sản xuất</option>
+                            </select>
+                        </label>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row products__main">
+                        <div class="col-xs-12 col-md-6 col-lg-4 mb-3">
+                            <div class="card">
+                                <img class="card-img-top" src="img/a-01.png" alt="Card image">-
+                                <div class="card-body">
+                                    <h6>Xuân - Xuân ngọt ngào</h6>
+                                    <p>Đắng như tử thần và ngọt ngào tựa tình yêu...</p>
+                                    <button type="button" class="btn btn-more" href="infoproduct.html">
+                                        <a  href="infoproduct.html" class="nav-link">Xem chi tiết</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-6 col-lg-4 mb-3">
+                            <div class="card">
+                                <img class="card-img-top" src="img/a-02.png" alt="Card image">
+                                <div class="card-body">
+                                    <h6>Hạ - Hạ kiêu sa</h6>
+                                    <p>Đắng như tử thần và ngọt ngào tựa tình yêu...</p>
+                                    <button type="button" class="btn btn-more">Xem chi tiết</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-6 col-lg-4 mb-3 d-block d-sm-none d-lg-block">
+                            <div class="card">
+                                <img class="card-img-top" src="img/a-03.png" alt="Card image">
+                                <div class="card-body">
+                                    <h6>Thu - Thu nhẹ nhàng</h6>
+                                    <p>Đắng như tử thần và ngọt ngào tựa tình yêu...</p>
+                                    <button type="button" class="btn btn-more">Xem chi tiết</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row mb-3 products__main">
+                        <div class="col-md-6 col-lg-4 mb-3">
+                            <div class="card">
+                                <img class="card-img-top" src="img/a-04.png" alt="Card image">
+                                <div class="card-body">
+                                    <h6>Đông - Đông mãnh liệt</h6>
+                                    <p>Đắng như tử thần và ngọt ngào tựa tình yêu...</p>
+                                    <button type="button" class="btn btn-more">Xem chi tiết</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-3">
+                            <div class="card">
+                                <img class="card-img-top" src="img/b-01.png" alt="Card image">
+                                <div class="card-body">
+                                    <h6>Life - Cà phê đen</h6>
+                                    <p>Đắng như tử thần và ngọt ngào tựa tình yêu...</p>
+                                    <button type="button" class="btn btn-more">Xem chi tiết</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-3 d-block d-md-none d-lg-block">
+                            <div class="card">
+                                <img class="card-img-top" src="img/b-02.png" alt="Card image">
+                                <div class="card-body">
+                                    <h6>Happy - Cà phê sữa</h6>
+                                    <p>Đắng như tử thần và ngọt ngào tựa tình yêu...</p>
+                                    <button type="button" class="btn btn-more">Xem chi tiết</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="my-3">-->
+                    <!--<div class="tips__slide slide"><i class="fas fa-arrow-circle-left prev"></i> <i class="fas fa-arrow-circle-right next"></i></div>-->
+                <!--</div>-->
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--footer-->
+<footer>
+    <div class="container">
+        <img class="f-logo" src="img/logo2.png" alt=""><div class="row">
+        <div class="col-md-6 col-lg-3 f-left">
+            <h6>LIÊN HỆ</h6>
+            <a class="nav-link">Địa chỉ: 29 Hàng Tre, Hoàn Kiếm, Hà Nội</a>
+            <a class="nav-link">SĐT: 0123.456.789</a>
+            <a class="nav-link">Email: Hungcf@gmail.com</a>
+            <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.018321708589!2d105.85350601424537!3d21.031952893046743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135abc1b47e843b%3A0xc07cdc94bcd62304!2zMjkgSMOgbmcgVHJlLCBMw70gVGjDoWkgVOG7lSwgSG_DoG4gS2nhur9tLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1553183297551" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+        </div>
+        <div class="col-md-6 col-lg-3 f-md">
+            <h6>DANH MỤC</h6>
+            <a class="nav-link" href="health.html">Sức khỏe</a>
+            <a class="nav-link" href="product.html">Sản phẩm</a>
+            <a class="nav-link" href="aboutus.html">Sự kiện nổi bật</a>
+        </div>
+
+        <div class="col-md-6 col-lg-3 f-md">
+            <h6>HỢP TÁC</h6>
+            <a class="nav-link" href="aboutus.html">Trong nước</a>
+            <a class="nav-link" href="aboutus.html">Ngoài nước</a>
+        </div>
+        <div class="col-md-6 col-lg-3 f-right">
+            <h6>KẾT NỐI VỚI CHÚNG TÔI</h6>
+            <img src="img/ic_fb.png" alt="">
+            <img src="img/ic_insta.png" alt="">
+            <img src="img/ic_youtube.png" alt="">
+        </div>
+    </div>
+    </div>
+</footer>
+
+</body>
+</html>
